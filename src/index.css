@@ -1,3 +1,10 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 50px;
+  height: 300px;
+  overflow: auto;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +12,150 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar-main{
+  background-color: black;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  z-index: 1000; 
+  opacity: 0.7;
+}
+
+.navbar-main ul {
+  list-style-type: none;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.navbar-main li {
+  display: inline-block;
+}
+
+.navbar-main a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-title{
+  color: white;
+  padding-left: 0px;
+  font-size: 18px;
+}
+
+.main-content {
+  padding-top: 250px;
+/*   margin: 250px; */
+}
+
+.main-title {
+  text-align: center;
+}
+
+.main-desc {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.navbar-sub-titles {
+  margin-left: 20px;
+}
+
+.navbar-socials-1 {
+  text-align: right;
+  padding-left: 900px;
+}
+
+.navbar-socials-2 {
+  text-align: right;
+  padding-left: 30px;
+}
+
+.about-title {
+  color: #fa344f;
+  font-size: 45px;
+}
+
+.about-p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.lnf-title {
+  color: #fa344f;
+  font-size: 45px;
+}
+
+.lnf-div {
+  padding-top: 500px;
+  padding-left: 875px;
+  width: 25%;
+  height: 100%;
+  background-color: black;
+}
+
+.lnf-p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.projects-title {
+  color: #fa344f;
+  font-size: 45px;
+}
+
+.projects-div {
+  padding-top: 500px;
+  padding-left: 235px;
+  width: 25%;
+  height: 100%;
+  background-color: black;
+}
+
+.contact-div {
+  padding-top: 500px;
+  padding-bottom: 200px;
+  padding-left: 875px;
+  width: 25%;
+  height: 100%;
+  background-color: black;
+}
+
+.contact-title {
+  color: #fa344f;
+  font-size: 45px;
+}
+
+.contact-p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 500px;
+}
+
+.about-pars {
+  padding-left: 235px;
+  height: 100%;
+  background-color: black;
+}
+
+.about-png {
+  padding-left: 200px;
+  padding-top: 150px;
 }
