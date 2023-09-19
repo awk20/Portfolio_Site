@@ -110,20 +110,38 @@ code {
 }
 
 .lnf-png {
-  width: 50%;
-  float: left;
+  display: grid;
+  padding-left: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+  }
+
+  /* Responsive styles for even smaller screens */
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr; /* 1 column for very small screens */
+  }
 }
 
 .lnf-items {
-  max-width: 100%;
+/*   max-width: 100%;
   height: auto;
   flex: 0 0 25%;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 5px; */
+  max-width: 100%;
+  height: auto;
+  text-align: center;
 }
 
 .lnf-pars {
-
+  padding-left: 10px;
+  width: 75%;
+  height: 100%;
+  background-color: black;
 }
 
 .lnf-p {

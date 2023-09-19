@@ -5,25 +5,6 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function NavBar(){
     return (
-/*       <div>
-        <nav className="navbar-main">
-            <a class="navbar-brand" href="#" style={{color: "#ffffff",}}>Anthony Knapik</a>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#" style={{color: "#ffffff",}}>Home</a>
-                <a class="nav-link" href="#" style={{color: "#ffffff",}}>About</a>
-                <a class="nav-link" href="#" style={{color: "#ffffff",}}>Skillset</a>
-                <a class="nav-link" href="#" style={{color: "#ffffff",}}>Projects</a>
-                <a class="nav-link" href="https://github.com/awk20">
-                  <FontAwesomeIcon icon={faGithub} style={{color: "#ffffff",}} />
-                </a>
-                <a class="nav-link" href="https://www.linkedin.com/in/anthony-k-b00214121/">
-                  <FontAwesomeIcon icon={faLinkedin} style={{color: "#ffffff",}} />
-                </a>
-              </div>
-            </div>
-        </nav>
-      </div> */
       <div>
         <nav className="navbar-main">
           <ul>

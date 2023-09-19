@@ -25,7 +25,7 @@ export default function LanguagesAndFrameworks() {
                 <img className="lnf-items" src={Java} alt="java"/>
                 <img className="lnf-items" src={Javascript} alt="javascript"/>
                 <img className="lnf-items" src={Python} alt="python"/>
-                <img className="lnf-items" src={Sql} alt="sql"/>
+                <img className="lnf-items" src={Sql} alt="sql" style={{width:"128px", height: "128px"}}/>
                 <img className="lnf-items" src={Html} alt="html5"/>
                 <img className="lnf-items" src={Css} alt="css"/>
                 <img className="lnf-items" src={ReactImg} alt="react"/>
