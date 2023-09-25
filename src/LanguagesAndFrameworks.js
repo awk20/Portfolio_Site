@@ -13,6 +13,7 @@ import ReactImg from "./react.png";
 import Sql from "./sql.png";
 import Bootstrap from "./bootstrap.png";
 import Flask from "./flask.png";
+import AspNetCore from "./aspnetcore.png";
 
 
 export default function LanguagesAndFrameworks() {
@@ -31,6 +32,7 @@ export default function LanguagesAndFrameworks() {
                 <img className="lnf-items" src={ReactImg} alt="react"/>
                 <img className="lnf-items" src={Bootstrap} alt="bootstrap"/>
                 <img className="lnf-items" src={Flask} alt="flask"/>
+                <img className="lnf-items" src={AspNetCore} alt="aspnetCore"/>
                 <FontAwesomeIcon icon={faNode} style={{color: "#fb324f", width: "128px", height: "128px"}} />
                 <FontAwesomeIcon icon={faGit} style={{color: "#fb324f", width: "128px", height: "128px"}} />
             </div>

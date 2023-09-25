@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding: 50px;
-  height: 300px;
+  scroll-padding: 13rem;
   overflow: auto;
 }
 
@@ -111,7 +110,7 @@ code {
 
 .lnf-png {
   display: grid;
-  padding-left: 30px;
+  padding-left: 90px;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
 
@@ -138,7 +137,7 @@ code {
 }
 
 .lnf-pars {
-  padding-left: 10px;
+  padding-left: 45px;
   width: 75%;
   height: 100%;
   background-color: black;
@@ -156,19 +155,71 @@ code {
 
 .projects-div {
   padding-top: 500px;
-  padding-left: 235px;
-  width: 25%;
-  height: 100%;
-  background-color: black;
 }
 
+.projects-p {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin: 175px;
+}
+
+.project-pars {
+/*   padding-left: 150px;
+  height: 100%;
+  background-color: black; */
+  text-align: center;
+}
+
+.projects-projects {
+  display: flex;
+/*   justify-content: center;
+  align-items: center;
+  height: 100vh; */
+}
+
+.projects-item {
+  width: 400px;
+  height: 300px;
+  margin-right: 10px;
+  display: inline-block;
+/*   flex: 0 0 300px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+/*   width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin: 10px; */
+}
+
+
 .contact-div {
-  padding-top: 500px;
+/*   padding-top: 500px;
   padding-bottom: 200px;
   padding-left: 875px;
   width: 25%;
   height: 100%;
-  background-color: black;
+  background-color: black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 800px;
+  padding-bottom: 300px;
+}
+
+.contact-form {
+  display: flex;
+  padding-left: 200px;
+  padding-top: 150px;
+  max-width: 350px;
+}
+
+.contact-pars {
+  padding-left: 45px;
+  width: 75%;
+  height: 100%;
 }
 
 .contact-title {
@@ -197,3 +248,67 @@ code {
   padding-left: 200px;
   padding-top: 150px;
 }
+
+.project-button-link {
+  text-decoration: none;
+}
+
+.project-button-link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* CSS */
+.button-1 {
+  background-color: #fa344f;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #f34e64;
+}
+
+.text-input {
+width: 100%;
+height: 36px;
+border-radius: 4px;
+padding-left: 12px;
+font-size: 14px;
+font-weight: normal;
+border: 1px solid rgb(137, 151, 155);
+transition: border-color 150ms ease-in-out 0s;
+outline: none;
+color: rgb(33, 49, 60);
+background-color: rgb(255, 255, 255);
+padding-right: 12px;
+}
+
+.text-input:hover{
+    box-shadow: rgb(231 238 236) 0px 0px 0px 3px;
+}
+
+
