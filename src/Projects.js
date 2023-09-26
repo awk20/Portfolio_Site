@@ -1,9 +1,8 @@
 import React from 'react';
-import { useState, useEffect} from 'react';
 import FindMeJobs from "./FindMeJobs.png";
 import SymphonicSeats from "./SymphonicSeats.png";
 import Fat32 from "./Fat32FileSystem.png";
-
+ 
 export default function Projects(){
 
     return (
@@ -34,8 +33,9 @@ export default function Projects(){
                                 to the database of events. Overall, this project helped me develop my skills in
                                 full-stack development as well as in C# and ASP.NET Core. 
                             </p>
-                            <button class="button-1" role="button"><a className="project-button-link" href="https://github.com/awk20/Symphonic_Seats">Source Code</a></button>
-                            <button class="button-1" role="button"><a className="project-button-link" href="https://github.com/awk20/Symphonic_Seats">Deployed App</a></button>
+                            <button class="button-1"><a className="project-button-link" href="https://github.com/awk20/Symphonic_Seats">Source Code</a></button>
+                            <p></p>
+                            <button class="button-1"><a className="project-button-link" href="https://symphonicseats.azurewebsites.net">Deployed App</a></button>
                         </div>
                     </div>
                 </div>
@@ -54,8 +54,9 @@ export default function Projects(){
                             allows users to save their desired job opening posts in their own "Saved Jobs" tab 
                             of the application. 
                         </p>
-                        <button class="button-1" role="button"><a className="project-button-link" href="https://github.com/awk20/Job-Search">Source Code</a></button>
-                        <button class="button-1" role="button"><a className="project-button-link" href="https://github.com/awk20/Symphonic_Seats">Deployed App</a></button>
+                        <button class="button-1"><a className="project-button-link" href="https://github.com/awk20/Job-Search">Source Code</a></button>
+                        <p></p>
+                        <button class="button-1"><a className="project-button-link" href="https://heroic-lebkuchen-e536a7.netlify.app/">Deployed App</a></button>
                     </div>
                 </div>
                 </div>
@@ -73,14 +74,14 @@ export default function Projects(){
                             Collaborating on code was a newer concept to me at the time and this project helped improve
                             my communication skills when working with fellow developers. 
                         </p>
-                        <button class="button-1" role="button"><a className="project-button-link" href="https://github.com/FSU-COP4610-Spring-2023/COP-4610-Project-3">Source Code</a></button>
+                        <button class="button-1"><a className="project-button-link" href="https://github.com/FSU-COP4610-Spring-2023/COP-4610-Project-3">Source Code</a></button>
                     </div>
                 </div>
                 </div>
                 <div className="projects-item">
                  <div>
                     <div>
-                    <img src='...' alt="" style={{height: "200px", width: "350px"}}/>
+                    <img src="..." alt="" style={{height: "200px", width: "350px", display: "none"}}/>
                         <h5>Python News</h5>
                         <p> 
                             Python News was another project I developed collaboratively in college. This project used Python,
@@ -90,7 +91,7 @@ export default function Projects(){
                             them. From there, users could like and dislike articles based on their preferences and click links redirecting
                             them to the desired articles they wished to read. 
                         </p>
-                        <button class="button-1" role="button"><a className="project-button-link" href="https://github.com/awk20">Source Code</a></button>
+                        <button class="button-1"><a className="project-button-link" href="https://gitlab.com/ajk19e/python-project">Source Code</a></button>
                     </div>
                 </div>
                 </div>

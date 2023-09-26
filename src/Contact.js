@@ -6,12 +6,6 @@ export default function Contact(){
 
     const [isSubmitted, setIsSubmitted] = useState(false);
 
-    // Setting up submission handler to let user know their email has been sent
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setIsSubmitted(true); 
-    }
-
     // Creating connection to EmailJs
     // Code from their documentation
     const form = useRef();
@@ -50,9 +44,10 @@ export default function Contact(){
                 <p className="contact-p">
                     If you or your company are looking for a dedicated and passionate software
                     developer, I feel as though I would be an axcellent candidate. Feel free to 
-                    reach me by email or phone number provided below. Thank you for taking the time 
+                    reach me by email provided below or through the website. Thank you for taking the time 
                     to look through my portfolio and I hope to hear from you in the future!
                 </p>
+                <p style={{color: "#fa344f", fontWeight: "bold"}}>Email: <a href="mailto:anthonyknapik@gmail.com" style={{textDecoration: "none"}}>anthonyknapik@gmail.com</a></p>
             </div>
         </div>
     );

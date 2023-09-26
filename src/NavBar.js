@@ -9,7 +9,7 @@ function NavBar(){
         <nav className="navbar-main">
           <ul>
             <li>
-              <a className="navbar-title" href="#">Anthony Knapik</a>
+              <a className="navbar-title" href="/">Anthony Knapik</a>
             </li>
             <li>
               <a className="navbar-sub-titles" href="#about">About</a>
